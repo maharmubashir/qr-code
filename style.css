@@ -1,0 +1,53 @@
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    line-height: 1.1;
+    font-size: 15px;
+    background-color: #cce1fa;
+  }
+  
+  main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 350px;
+    min-height: auto;
+    padding: 15px;
+    background-color: #ffff;
+    border-radius: 10px;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  h1,
+  p {
+    margin-top: 20px;
+    padding: 0px 20px;
+  }
+  
+  h1 {
+    text-align: justify;
+  }
+  p {
+    text-align: center;
+    color: #999999;
+  }
